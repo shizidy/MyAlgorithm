@@ -16,6 +16,9 @@
 		74BF96972425B84B0042F107 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BF96962425B84B0042F107 /* main.m */; };
 		74BF96A12425B84B0042F107 /* MyAlgorithmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BF96A02425B84B0042F107 /* MyAlgorithmTests.m */; };
 		74BF96AC2425B84B0042F107 /* MyAlgorithmUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BF96AB2425B84B0042F107 /* MyAlgorithmUITests.m */; };
+		74BF96BB2425EBC00042F107 /* MyCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BF96BA2425EBC00042F107 /* MyCrash.m */; };
+		74BF96BE242611C70042F107 /* UncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BF96BD242611C70042F107 /* UncaughtExceptionHandler.m */; };
+		74BF96C1242729BB0042F107 /* UncaughtExceptionAndSignalHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BF96C0242729BB0042F107 /* UncaughtExceptionAndSignalHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,12 @@
 		74BF96A72425B84B0042F107 /* MyAlgorithmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAlgorithmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74BF96AB2425B84B0042F107 /* MyAlgorithmUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAlgorithmUITests.m; sourceTree = "<group>"; };
 		74BF96AD2425B84B0042F107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74BF96B92425EBC00042F107 /* MyCrash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCrash.h; sourceTree = "<group>"; };
+		74BF96BA2425EBC00042F107 /* MyCrash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCrash.m; sourceTree = "<group>"; };
+		74BF96BC242611C70042F107 /* UncaughtExceptionHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UncaughtExceptionHandler.h; sourceTree = "<group>"; };
+		74BF96BD242611C70042F107 /* UncaughtExceptionHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UncaughtExceptionHandler.m; sourceTree = "<group>"; };
+		74BF96BF242729BB0042F107 /* UncaughtExceptionAndSignalHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UncaughtExceptionAndSignalHandler.h; sourceTree = "<group>"; };
+		74BF96C0242729BB0042F107 /* UncaughtExceptionAndSignalHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UncaughtExceptionAndSignalHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +119,12 @@
 				74BF96882425B84A0042F107 /* SceneDelegate.m */,
 				74BF968A2425B84A0042F107 /* ViewController.h */,
 				74BF968B2425B84A0042F107 /* ViewController.m */,
+				74BF96B92425EBC00042F107 /* MyCrash.h */,
+				74BF96BA2425EBC00042F107 /* MyCrash.m */,
+				74BF96BC242611C70042F107 /* UncaughtExceptionHandler.h */,
+				74BF96BD242611C70042F107 /* UncaughtExceptionHandler.m */,
+				74BF96BF242729BB0042F107 /* UncaughtExceptionAndSignalHandler.h */,
+				74BF96C0242729BB0042F107 /* UncaughtExceptionAndSignalHandler.m */,
 				74BF968D2425B84A0042F107 /* Main.storyboard */,
 				74BF96902425B84B0042F107 /* Assets.xcassets */,
 				74BF96922425B84B0042F107 /* LaunchScreen.storyboard */,
@@ -267,10 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74BF96BB2425EBC00042F107 /* MyCrash.m in Sources */,
 				74BF968C2425B84A0042F107 /* ViewController.m in Sources */,
+				74BF96C1242729BB0042F107 /* UncaughtExceptionAndSignalHandler.m in Sources */,
 				74BF96862425B84A0042F107 /* AppDelegate.m in Sources */,
 				74BF96972425B84B0042F107 /* main.m in Sources */,
 				74BF96892425B84A0042F107 /* SceneDelegate.m in Sources */,
+				74BF96BE242611C70042F107 /* UncaughtExceptionHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
